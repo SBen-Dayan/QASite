@@ -61,7 +61,7 @@ namespace QA.Web.Controllers
                 QuestionId = questionId,
                 UserId = GetUserId()
             });
-            return RedirectToAction("ViewQuestion");
+            return Redirect($"/Question/ViewQuestion?id={questionId}");
         }
     }
 }

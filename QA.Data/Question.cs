@@ -16,7 +16,7 @@ namespace QA.Data
         public int UserId { get; set; }
 
         public List<Tag> Tags { get; set; } = new();
-        public List<Answer> Answers { get; set; }
-        public User User { get; set; } = new();
+        public List<Answer> Answers { get; set; } = new();
+        public User User { get; set; }
     }
 }
